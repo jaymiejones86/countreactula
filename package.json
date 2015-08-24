@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack ./js/index.js ./dist/bundle.js --watch",
-    "build": "webpack ./js/index.js ./dist/bundle.js"
+    "dev": "webpack --watch",
+    "build": "webpack",
+    "devserver": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base ." 
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "react-redux": "^0.9.0",
     "redux": "^1.0.1",
     "redux-devtools": "^1.1.1",
-    "webpack": "^1.11.0"
+    "webpack": "^1.11.0",
+    "webpack-dev-server": "^1.10.1"
   }
 }
