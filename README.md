@@ -7,6 +7,7 @@ A simple repo to test using react and the new redux
 - Node
 - React [http://facebook.github.io/react/](http://facebook.github.io/react/)
 - Redux [http://rackt.github.io/redux/](http://rackt.github.io/redux/)
+- es6 [es6 react docs](https://facebook.github.io/react/docs/reusable-components.html#es6-classes)
 
 ## Getting Started
 - run `npm install`
